@@ -1,0 +1,51 @@
+$path--rel : "../imagenes";
+
+@mixin background-image($img, $background-position, $background-color) {
+    background-image: url('#{$path--rel}/#{$img}');
+    background-repeat: no-repeat;
+    background-position: $background-position;
+    background-color: $background-color ;
+
+} 
+
+ #primerDiv{
+     @include background-image("ImagenDeCueva.png", center, 000);
+     
+ }
+
+ @mixin Navegacion ($background-color,$margin-left,$color,$text-aling,$border-radius,$border,$padding,$margin-top) {
+    background-color:$background-color;
+    margin-left: $margin-left;
+    color: $color;
+    text-align: $text-aling;
+    border-radius: $border-radius;
+    border: $border;
+    padding: $padding;
+    margin-top: $margin-top;
+ }
+ #navegacion1{//nosotros
+     @include Navegacion(#ffda79, 10px, rgb(3, 73, 3), center, 4px, solid 1px blue , 10px, 10px )
+ }
+ #navegacion2{//libros
+     @include Navegacion(#ffb142, 10px, white, center, 4px, solid 1px blue , 10px, 10px  )
+ }
+ #navegacion3{//teatro
+    @include Navegacion(#ff793f, 10px, white, center, 4px, solid 1px blue , 10px, 10px  )
+}
+#navegacion4{//cine
+    @include Navegacion(#b33939, 10px, white, center, 4px, solid 1px blue , 10px, 10px  )
+}
+
+
+//navegación: suscripción
+#navegacion{
+    @include Navegacion(#33d9b2, 4px, rgb(3, 73, 3), center, 4px, solid 1px blue , 10px, 10px  )
+}
+
+
+
+
+
+#im{
+    @include background-image("folklore.png", center, 000)
+}

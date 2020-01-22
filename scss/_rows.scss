@@ -1,0 +1,109 @@
+#row1{
+    position: absolute;
+    margin-top: -22em;
+    margin-left: 21%;
+    display: block;
+    border: solid 1px orangered;
+    border-radius: 4px;
+    align-items: center;
+    
+
+    #eureka{
+        margin-left: 9rem;
+        font-size: 40px;
+        color: orangered;
+        background-color: transparent;
+        
+    }
+    #eureka2{
+        margin-left: -6rem;
+    }
+}
+
+#row3{
+    margin-left: -53%;
+    
+    #CC{
+        margin-left: 11%;
+        font-size: 20px;
+        margin-top: -8px;
+    }
+    #CC2{
+        margin-top: -8px;
+        margin-left: -6px;
+        font-size: 20px;
+    }
+}
+
+#row2{
+    margin-left: 23%;
+    a :hover{
+        color: black;
+        transform: scale(1.2);
+        margin-left: -0.7em;
+    }
+    #navegacion :hover{
+        margin-left: -1em;
+        padding-right: 1em;
+    }
+}
+#row4{
+    margin-left: 11%;
+    margin-top: -2%;
+}
+
+//Entrada a rowTeatro. 
+
+#rowTeatro{
+    background-color: rgba(245, 245, 245, 0.5);
+    position: absolute;
+    margin-top: -12em;
+  
+    width: 35%;
+    height: 12%;
+    padding: 10px;
+    margin-left: 28em;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 4px;
+
+    #botonTeatro{
+        border: solid 1px yellow;
+        border-radius: 4px;
+        text-align: center;
+        color: blue;
+    }
+}
+//carrusel
+#containerCarrusel{
+    justify-content: center;
+
+    #carrusel{
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+        border: solid 4px yellow;
+    }
+    #fondoDeCarrusel{
+        padding: 20px 22% 20px 22%;
+      
+        width: 72%;
+       margin: auto;
+       background: linear-gradient(-45deg,red, violet);
+    }
+}
+
+
+//Entrada para elementos de "suscripción".
+.fieldset{
+    border: solid 1px orangered;
+    padding: 10px;
+}
+#segundoFieldSet{
+    border: solid 1px rgb(136, 40, 5);
+    padding: 10px;
+}
+
+#eureka3{
+    color: orangered;
+}
