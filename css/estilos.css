@@ -1,0 +1,442 @@
+#body {
+  width: 100%;
+  height: auto;
+  background-color: #9b8459; }
+
+#primerDiv {
+  width: 100%;
+  height: 500%;
+  padding: 0;
+  margin: 0; }
+
+#main {
+  width: 80%;
+  height: 90px;
+  margin: auto;
+  margin-top: 20px; }
+
+#segundoDiv {
+  width: 80%;
+  height: 449px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  margin-top: -448px; }
+
+#primerDiv {
+  background-image: url("../imagenes/ImagenDeCueva.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: 0; }
+
+#navegacion1 {
+  background-color: #ffda79;
+  margin-left: 10px;
+  color: #034903;
+  text-align: center;
+  border-radius: 4px;
+  border: solid 1px blue;
+  padding: 10px;
+  margin-top: 10px; }
+
+#navegacion2 {
+  background-color: #ffb142;
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  border: solid 1px blue;
+  padding: 10px;
+  margin-top: 10px; }
+
+#navegacion3 {
+  background-color: #ff793f;
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  border: solid 1px blue;
+  padding: 10px;
+  margin-top: 10px; }
+
+#navegacion4 {
+  background-color: #b33939;
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  border: solid 1px blue;
+  padding: 10px;
+  margin-top: 10px; }
+
+#navegacion {
+  background-color: #33d9b2;
+  margin-left: 4px;
+  color: #034903;
+  text-align: center;
+  border-radius: 4px;
+  border: solid 1px blue;
+  padding: 10px;
+  margin-top: 10px; }
+
+#im {
+  background-image: url("../imagenes/folklore.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: 0; }
+
+#row1 {
+  position: absolute;
+  margin-top: -22em;
+  margin-left: 21%;
+  display: block;
+  border: solid 1px orangered;
+  border-radius: 4px;
+  align-items: center; }
+  #row1 #eureka {
+    margin-left: 9rem;
+    font-size: 40px;
+    color: orangered;
+    background-color: transparent; }
+  #row1 #eureka2 {
+    margin-left: -6rem; }
+
+#row3 {
+  margin-left: -53%; }
+  #row3 #CC {
+    margin-left: 11%;
+    font-size: 20px;
+    margin-top: -8px; }
+  #row3 #CC2 {
+    margin-top: -8px;
+    margin-left: -6px;
+    font-size: 20px; }
+
+#row2 {
+  margin-left: 23%; }
+  #row2 a :hover {
+    color: black;
+    transform: scale(1.2);
+    margin-left: -0.7em; }
+  #row2 #navegacion :hover {
+    margin-left: -1em;
+    padding-right: 1em; }
+
+#row4 {
+  margin-left: 11%;
+  margin-top: -2%; }
+
+#rowTeatro {
+  background-color: rgba(245, 245, 245, 0.5);
+  position: absolute;
+  margin-top: -12em;
+  width: 35%;
+  height: 12%;
+  padding: 10px;
+  margin-left: 28em;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 4px; }
+  #rowTeatro #botonTeatro {
+    border: solid 1px yellow;
+    border-radius: 4px;
+    text-align: center;
+    color: blue; }
+
+#containerCarrusel {
+  justify-content: center; }
+  #containerCarrusel #carrusel {
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    border: solid 4px yellow; }
+  #containerCarrusel #fondoDeCarrusel {
+    padding: 20px 22% 20px 22%;
+    width: 72%;
+    margin: auto;
+    background: linear-gradient(-45deg, red, violet); }
+
+.fieldset {
+  border: solid 1px orangered;
+  padding: 10px; }
+
+#segundoFieldSet {
+  border: solid 1px #882805;
+  padding: 10px; }
+
+#eureka3 {
+  color: orangered; }
+
+#navegacion1 {
+  font-size: 1em;
+  margin-left: 2em; }
+
+#navegacion2 {
+  font-size: 1em; }
+
+#navegacion3 {
+  font-size: 1em; }
+
+#navegacion4 {
+  font-size: 1em; }
+
+#navegacion {
+  font-size: 1em;
+  margin-left: 10px; }
+
+#boton {
+  margin-right: 10px;
+  border-radius: 5px; }
+
+@media (max-width: 575.98px) {
+  #main {
+    width: 100%;
+    transform: translate(-0.66em); }
+
+  #primerDiv {
+    align-self: center;
+    max-width: 85%;
+    transform: translate(-8em); }
+
+  #segundoDiv {
+    margin-left: 6px;
+    max-width: 77%;
+    transform: translate(-3em); }
+
+  #navegacion {
+    width: 70%;
+    margin-left: -12px;
+    transform: scale(0.8);
+    font-size: 22px; }
+
+  #navegacion1 {
+    width: 70%;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -12px;
+    transform: scale(0.8);
+    font-size: 22px; }
+
+  #navegacion2 {
+    width: 70%;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -12px;
+    transform: scale(0.8);
+    font-size: 22px; }
+
+  #navegacion3 {
+    width: 70%;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -12px;
+    transform: scale(0.8);
+    font-size: 22px; }
+
+  #navegacion4 {
+    width: 70%;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 170px;
+    transform: scale(0.8);
+    font-size: 22px; }
+
+  #CC {
+    text-align: center;
+    transform: translate(-1em); }
+
+  #CC2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10%; }
+
+  #eureka {
+    justify-content: left;
+    transform: translate(-3em);
+    padding: 0; }
+
+  #eureka2 {
+    margin-top: -12%;
+    transform: translate(0.5em);
+    font-size: 30px; }
+
+  #row1 {
+    border: hidden; }
+
+  #row2 {
+    margin-bottom: 5em;
+    margin-left: 4.3em;
+    transform: translate(-4.2em); }
+
+  #row4 {
+    max-width: 80%;
+    height: auto;
+    transform: translate(-3.4em);
+    background-color: rgba(250, 76, 12, 0.4);
+    padding-top: 40px;
+    padding-bottom: 30px; }
+
+  #boton {
+    transform: translate(-2em); }
+
+  #navegador2 {
+    margin-left: 39px;
+    width: 70%; }
+
+  #hr {
+    margin-top: -5em;
+    margin-bottom: -10px; }
+
+  #alerta {
+    margin-left: -3rem;
+    transform: scale(0.7);
+    transform: translate(-0.5em); }
+
+  .card {
+    min-width: 84%;
+    margin-left: 0.4em; }
+
+  #divAnimation {
+    margin-top: -8em; } }
+@media (max-width: 767.98px) {
+  #main {
+    max-width: 90%;
+    margin: auto; }
+
+  #primerDiv {
+    transform: translate(0.74em);
+    max-width: 90%;
+    top: 14rem; }
+
+  #segundoDiv {
+    transform: scale(1.2);
+    transform: translate(-0.5rem);
+    min-width: 95%;
+    top: 28rem; }
+
+  #navegacion {
+    min-width: 8em; }
+
+  #navegacion1 {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -12px; }
+
+  #navegacion2 {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -12px; }
+
+  #navegacion3 {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -12px; }
+
+  #navegacion4 {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -12px; }
+
+  #CC {
+    margin-left: 30%; }
+
+  #CC2 {
+    text-align: center;
+    font-size: 20px; }
+
+  #eureka2 {
+    margin-left: -5rem; }
+
+  #row2 {
+    margin-bottom: 5em; }
+
+  #navegador2 {
+    margin-left: 39px; }
+
+  #hr {
+    margin-top: -5em;
+    margin-left: -14px;
+    margin-bottom: -10px; }
+
+  #row2 {
+    margin-left: 8rem; }
+
+  #row4 {
+    display: block;
+    transform: translate(0.4em); }
+
+  #boton {
+    margin-bottom: 0.6em;
+    margin-left: 5rem; }
+
+  #alerta {
+    margin-left: -1rem; }
+
+  #parrafoBotones a button {
+    margin-left: 30px; }
+
+  #divAnimation {
+    margin-top: -26em; } }
+@media (max-width: 991.98px) {
+  #main {
+    min-width: 70%;
+    margin-left: 2em; } }
+@media (max-width: 1199.98px) {
+  #main {
+    min-width: 70%;
+    margin-left: 2em; } }
+#eureka2 {
+  font-family: 'Days One', sans-serif; }
+
+#CC {
+  font-family: 'Courgette', cursive; }
+
+#CC2 {
+  font-family: 'Courgette', cursive; }
+
+#navegacion1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif; }
+
+#navegacion2 {
+  font-family: 'M PLUS Rounded 1c', sans-serif; }
+
+#navegacion3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif; }
+
+#navegacion4 {
+  font-family: 'M PLUS Rounded 1c', sans-serif; }
+
+#navegador2 {
+  font-family: 'M PLUS Rounded 1c', sans-serif; }
+
+#navegacion {
+  font-family: 'M PLUS Rounded 1c', sans-serif; }
+
+#eureka3 {
+  font-family: 'Days One', sans-serif; }
+
+#divAnimation {
+  width: 24px;
+  height: 24px;
+  border: solid 2px yellow;
+  position: absolute;
+  background-color: transparent;
+  animation-name: circulo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  animation-timing-function: linear, ease-in; }
+
+@keyframes circulo {
+  0% {
+    transform: scale(1.3); }
+  50% {
+    transform: scale(0.6);
+    border: solid 2px orangered; }
+  100% {
+    transform: scale(0.4);
+    border: solid 2px red; } }
+#titulosDelMes {
+  animation-name: mes;
+  animation-duration: 1s; }
+
+/*# sourceMappingURL=estilos.css.map */
